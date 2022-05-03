@@ -115,9 +115,14 @@ source $ZSH/oh-my-zsh.sh
 #export PYTHON_BIN_PATH="$(python3 -m site --user-base)/bin"
 #export PATH="$PATH:$PYTHON_BIN_PATH"
 
+
 ##Bart Aliases
 alias inst="sudo apt-get install "
 alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 alias myip="curl -s ipinfo.io/ip"
 alias vpn-up="sudo surfshark-vpn"
 alias vpn-down="sudo surfshark-vpn down"
+alias web="cd /home/admin/web/"
+alias hec="cd /home/admin/web/hector.finance/public_html"
+alias gologs="goaccess /var/log/httpd/domains/hector.finance.log"
+
